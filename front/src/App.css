@@ -1,0 +1,82 @@
+/*---------------------- Logo -----------------------*/
+.logo {
+  /* height: 40vmin; */
+  pointer-events: none;
+  float: left;
+  margin-right: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*---------------------- App ----------------------*/
+.App {
+  /* padding-top: 36px; */
+  text-align: center;
+  /* margin: 100px; */
+}
+
+.card-columns{
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.card{
+  border-radius: 25px;
+}
+.card img{
+  padding: 15px;
+  border-radius: 7%;
+}
+
+.detalle{
+  padding: 25px;
+  margin-top:7em;
+  margin-bottom: 5em;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white !important;
+}
+.alert {
+  margin-top: 120px;
+  /*margin:8em;*/
+}
+.alert i{
+  margin: 10px;
+}
+.alert strong{
+  font-size: 2em;
+}
+
+.notFound{
+  margin:8em;
+}
+
+footer a{
+  color: black;
+}
